@@ -1,21 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata'
 
 
-class Header extends Component {
+export default class Header extends React.Component {
     state = {}
 
     render() {
         return (<div>
-        <h1 className='heading-background'>BERLINER</h1>
+        <h1 className='heading-background'>{data.weirdBackgroundThing}</h1>
+
             <header>
                 <h1>
                     <Fade bottom cascade>{data.name}</Fade></h1>
             </header>
             <Fade bottom>
             <p className='header-title'>
-            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
+            {data.headerTagline[0]}<br />
+            {data.headerTagline[1]}<br />
             {data.headerTagline[2]}
                <hr />
                 <a 
@@ -36,5 +38,3 @@ class Header extends Component {
         </div>);
     }
 }
-
-export default Header;
