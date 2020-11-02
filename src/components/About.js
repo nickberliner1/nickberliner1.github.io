@@ -4,7 +4,7 @@ import data from '../yourdata';
 import './style.css';
 import { Parallax, Background } from 'react-parallax';
 
-class About extends React.Component {
+export default class About extends React.Component {
     state = {  }
     render() { 
         return (
@@ -40,5 +40,3 @@ class About extends React.Component {
         );
     }
 }
- 
-export default About;
