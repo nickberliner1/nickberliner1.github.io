@@ -2,12 +2,13 @@ export default
     {
         //Change The Website Template
         name :'',
+        weirdBackgroundThing: '01101110 01001001\n01000011 01001011',
         headerTagline: [//Line 1 For Header
                         'Hi there, I\'m Nick.',
                         //Line 2 For Header
-                        'Front end developer, surfer, ',
+                        'Front-End Developer, ',
                         //Line 3 For Header
-                        'snowboarder, guitarist, and globetrotter.'
+                        'surfer, snowboarder, and guitarist.'
     ],
         //Contact Email
         contactEmail: 'nickberliner1@gmail.com',
@@ -30,33 +31,33 @@ export default
        projects:[
            {
             id: 1,//DO NOT CHANGE THIS (Please)😅
-            title:'Project One', //Project Title - Add Your Project Title Here
-             service:'UI/UX Design', // Add Your Service Type Here
+            title:'FindIt', //Project Title - Add Your Project Title Here
+             service:'Nearby restaurant finder built with ReactJS', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-             imageSrc:"https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+             imageSrc:"https://imgur.com/kdeNaz4.jpg",
              //Project URL - Add Your Project Url Here
-            //  url:'http://chetanverma.com/'
+             url:'https://github.com/nickberliner1/store-finder-reactjs'
             },
             {
                 id: 2,//DO NOT CHANGE THIS (Please)😅
                 title: 'Caveman Game',
                 service: '2 player game built with OOP VanillaJS',
                 imageSrc: "https://i.imgur.com/xjuTazY.jpg",
-                url: 'http://nickberliner1.github.io/cavemen-game'
+                url: 'http://github.com/nickberliner1/cavemen-game'
             },
             { 
                 id: 3,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Three',
-                service: 'Web App',
-                imageSrc: "https://images.unsplash.com/photo-1511500118080-275313ec90a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                // url: 'http://chetanverma.com/'
+                title: '99 Bottles',
+                service: 'ES6 that plays the 99 bottles of beer song',
+                imageSrc: "https://i.imgur.com/rHLFzFd.jpg",
+                url: 'https://github.com/nickberliner1/99-bottles-of-beer'
             },
             {
                 id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Project Four',
-                service: 'Branding',
-                imageSrc: "https://images.unsplash.com/photo-1558452919-08ae4aea8e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-                // url: 'http://chetanverma.com/'
+                title: 'Check list app',
+                service: 'App with bugs fixed, tests written, and documentation made',
+                imageSrc: "https://i.imgur.com/mOHcIwp.jpg",
+                url: 'https://github.com/nickberliner1/check-list-app'
            }
 
                     /*
