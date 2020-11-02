@@ -34,7 +34,7 @@ export default class Contact extends React.Component {
                 <hr />
         </div>
         </Fade>
-
+        <br />
         </div>);
     }
 }
