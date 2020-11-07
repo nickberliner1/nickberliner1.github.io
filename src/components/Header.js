@@ -21,8 +21,9 @@ export default class Header extends React.Component {
             {data.headerTagline[2]}
                <hr />
                 <a 
-                href="https://drive.google.com/file/d/1QkfkEesp1PDfcvl8zkHgcKJpts3ePM1o/view?usp=sharing" 
-                target="_blank">
+                href="https://drive.google.com/file/d/16gW9_qm0dUOxq-UH-yYXxyn6aID65FYE/view?usp=sharing" 
+                target="_blank"
+                >
                     <button>
                         <p className="cv-button-text">View My CV</p>
                     </button>
