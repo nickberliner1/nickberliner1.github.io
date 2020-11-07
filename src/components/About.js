@@ -13,7 +13,6 @@ export default class About extends React.Component {
             
             <div className='about-content'>
             
-            // Add this parallax only to image?
             <Parallax
                 // bgImage={data.aboutImage}
                 strength={300}
