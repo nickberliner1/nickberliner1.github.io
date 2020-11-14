@@ -2,7 +2,7 @@ export default
     {
         //Change The Website Template
         name :'',
-        weirdBackgroundThing: '01101110 01001001\n01000011 01001011',
+        weirdBackgroundThing: 'Front-End\nDeveloper',
         headerTagline: [//Line 1 For Header
                         'Hi there, I\'m Nick.',
                         //Line 2 For Header

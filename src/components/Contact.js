@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
+import './contact.css';
 
 export default class Contact extends React.Component {
     state = {  }
@@ -11,9 +12,9 @@ export default class Contact extends React.Component {
         </h1> */}
         <Fade bottom>
         <div className='contact-content'>
-                <h1>
+                <h1 className="amazing-color-blue">
                 Let’s
-                <span className='amazing-color'> talk</span>
+                <span className='amazing-color-orange'> talk</span>
                 </h1>
                     <h2>+39 347 031 7404</h2>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>

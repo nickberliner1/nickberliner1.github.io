@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+
+
+nav {
+    position:fixed;
+    left:2em;
+    top:6em;
+    z-index: 100;
+    /* display: flex; */
+    background-color: #101f40;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px;
+}
+
+li {
+    /* display: inline-block; */
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+li .link {
+    text-decoration: none;
+    font-weight: 1000;
+    color: white;
+    padding: 1em;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+li .link:hover {
+    color: #f68426;
+    opacity: 1;
+}
+
+.active {
+    color:#f68426;
+    opacity: 1;
+}
+
+i {
+    color: white;
+    padding: 10px;
+    float: right;
+    cursor: grab;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    nav {
+        background-color: #f68426d8;
+    }
+
+    li .link {
+        color: white;
+    }
+
+    li .link:hover {
+        color: #101f40;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+
+}

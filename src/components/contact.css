@@ -1,0 +1,72 @@
+.contact {
+    position: relative;
+    top:20em;
+    left:15em;
+    text-align: left;
+  }
+  
+  .contact h1 {
+      font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    text-align: left;
+  }
+  .amazing-color-orange {
+    color:#f68426;
+    opacity: 1;
+  }
+  .amazing-color-blue {
+    color:#101f40;
+  }
+  .contact .email {
+    color:black;
+    font-size: 2em;
+  }
+  .contact li {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1em;
+    margin-left: 0;
+  }
+  .contact li a {
+    text-decoration: none;
+    color:black;
+  }
+  .footer {
+    position: relative;
+    top:2em;
+    padding: 1em;
+  }
+  .footer a {
+    text-decoration: none;
+    color:#2c59fb;
+  }
+  
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  .amazing-color-blue {
+    color: white;
+  }
+  .contact .email {
+    color: white;
+  }
+
+  .contact li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+}
+  
+  
+  /* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+
+}
+  
+  
+  

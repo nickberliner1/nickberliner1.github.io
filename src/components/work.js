@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Project from './project';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
+import './work.css';
 
 class Work extends Component {
     state = {  }

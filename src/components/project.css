@@ -1,0 +1,59 @@
+
+  .project {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-title {
+    position: absolute;
+    z-index: 10;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    opacity: 0;
+  }
+  
+  .project:hover .project-title {
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .project-image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 30em;  
+    height: 30em;
+    border: 2.5px solid rgb(168, 168, 168);
+    border-radius: 10px;
+  }
+  
+  
+  .project-description {
+    transition: .5s ease;
+    opacity: 0;
+   
+  }
+  
+  
+  
+  .project:hover img {
+    opacity: 0.2;
+  }
+  .project:hover .project-description {
+    opacity: 1;
+  }
+
+
+
+
+  /* SMARTPHONES PORTRAIT */
+  @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+
+}

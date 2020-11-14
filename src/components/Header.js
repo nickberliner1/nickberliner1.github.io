@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata'
+import './header.css';
 
 
 export default class Header extends React.Component {
@@ -8,11 +9,15 @@ export default class Header extends React.Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'>{data.weirdBackgroundThing}</h1>
+        <h1 className='heading-background'>
+            <i className="fas fa-code fa-3x"></i>
+            {/* <code>{data.weirdBackgroundThing}</code> */}
+        </h1>
 
             <header>
                 <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
+                    <Fade bottom cascade>{data.name}</Fade>
+                </h1>
             </header>
             <Fade bottom>
             <p className='header-title'>
