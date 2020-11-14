@@ -7,14 +7,19 @@ export default class Project extends React.Component {
         return ( 
         <Fade bottom>
         <div className='project'>
-        <a href={this.props.url}
-            target="_blank">
-            <img src={this.props.imageSrc} alt={this.props.title}></img>
-            </a>
-            <h1>{this.props.title}</h1>
-            <span>{this.props.service}</span>
+            <img src={this.props.imageSrc} alt={this.props.title} className="project-image" />
+                <div className="project-title">
+                    <h1>{this.props.title}</h1>
+                        <div className="project-description">
+                            <span>{this.props.service}</span>
+                            <hr />
+                            <a target="_blank" rel="noopener noreferrer" href={this.props.url} >
+                                <i class="fas fa-chevron-circle-right fa-3x"></i>
+                            </a>
+                        </div>
+                </div>
         </div> 
-            </Fade>);
+        </Fade>);
     }
 }
  

@@ -24,7 +24,7 @@ export default
 
 
         // aboutImage:'https://images.unsplash.com/photo-1521587765099-8835e7201186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
-        aboutImage: 'https://i.imgur.com/xtodfP8.jpg',
+        aboutImage: 'https://i.imgur.com/X30dszn.jpg',
         //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
        // Change Projects Here 
