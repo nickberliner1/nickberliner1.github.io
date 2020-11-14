@@ -9,6 +9,9 @@ body {
   z-index: 1;
 }
 
+a {
+  color: inherit;
+}
 
 .App  {
   text-align: center;
@@ -141,19 +144,74 @@ li .link:hover {
   grid-gap: 2em;
 }
 
-.project img {
-width: 30em;  
-height: 30em;
-border: 2.5px solid rgb(168, 168, 168);
-border-radius: 10px;
-
+.project {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
+
+.project-title {
+  position: absolute;
+  z-index: 10;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  opacity: 0;
+}
+
+.project:hover .project-title {
+  opacity: 1;
+  text-align: center;
+}
+
+.project-image {
+  opacity: 1;
+  /* display: block; */
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 30em;  
+  height: 30em;
+  border: 2.5px solid rgb(168, 168, 168);
+  border-radius: 10px;
+}
+
+
+.project-description {
+  transition: .5s ease;
+  opacity: 0;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  /* text-align: center; */
+}
+
+/* .project img {
+  width: 30em;  
+  height: 30em;
+  border: 2.5px solid rgb(168, 168, 168);
+  border-radius: 10px;
+} */
+
+.project:hover img {
+  opacity: 0.2;
+}
+.project:hover .project-description {
+  opacity: 1;
+}
+
 .contact {
   position: relative;
   top:20em;
   left:15em;
   text-align: left;
 }
+
 .contact h1 {
     font-family: 'Montserrat', sans-serif;
   font-size: 5em;
@@ -170,7 +228,7 @@ border-radius: 10px;
 }
 .contact li {
   display: inline-block;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 0;
   margin-right: 1em;
   margin-left: 0;
@@ -188,6 +246,38 @@ border-radius: 10px;
   text-decoration: none;
   color:#2c59fb;
 }
+
+
+
+
+
+
+
+
+
+/*
+DARK MODE
+*/
+#body-dark {
+  font-size: 16px;
+  background: rgb(26, 26, 26);
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* SMARTPHONES PORTRAIT */
