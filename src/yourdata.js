@@ -32,7 +32,7 @@ export default
            {
             id: 1,//DO NOT CHANGE THIS (Please)😅
             title:'FindIt', //Project Title - Add Your Project Title Here
-             service:'Nearby restaurant finder built with ReactJS', // Add Your Service Type Here
+             service:'Nearby restaurant finder\nbuilt with ReactJS', // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
              imageSrc:"https://imgur.com/kdeNaz4.jpg",
              //Project URL - Add Your Project Url Here
@@ -41,21 +41,21 @@ export default
             {
                 id: 2,//DO NOT CHANGE THIS (Please)😅
                 title: 'Caveman Game',
-                service: '2 player game built with OOP VanillaJS',
+                service: '2 player game built with\nOOP VanillaJS',
                 imageSrc: "https://i.imgur.com/xjuTazY.jpg",
                 url: 'http://github.com/nickberliner1/cavemen-game'
             },
             { 
                 id: 3,//DO NOT CHANGE THIS (Please)😅
                 title: '99 Bottles',
-                service: 'ES6 that plays the 99 bottles of beer song',
+                service: 'ES6 that plays the\n99 bottles of beer song',
                 imageSrc: "https://i.imgur.com/rHLFzFd.jpg",
                 url: 'https://github.com/nickberliner1/99-bottles-of-beer'
             },
             {
                 id: 4,//DO NOT CHANGE THIS (Please)😅
                 title: 'Check list app',
-                service: 'App with bugs fixed, tests written, and documentation made',
+                service: 'App with bugs fixed, tests\nwritten, and documentation made',
                 imageSrc: "https://i.imgur.com/mOHcIwp.jpg",
                 url: 'https://github.com/nickberliner1/check-list-app'
            }
