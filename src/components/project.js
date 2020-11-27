@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import './project.css';
 
 export default class Project extends React.Component {
     state = {  }

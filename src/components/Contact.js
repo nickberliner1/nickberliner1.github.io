@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
-import './contact.css';
 
 export default class Contact extends React.Component {
     state = {  }
@@ -19,7 +18,7 @@ export default class Contact extends React.Component {
                     <h2>+39 347 031 7404</h2>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                     
-                <ul>
+                {/* <ul>
                     <li>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/nickberliner1">
                         <i class="fab fa-github fa-3x"></i>
@@ -30,7 +29,7 @@ export default class Contact extends React.Component {
                         <i class="fab fa-linkedin fa-3x"></i>
                     </a>
                     </li>
-                </ul>
+                </ul> */}
 
                 <hr />
         </div>

@@ -23,11 +23,13 @@
     align-items: center;
   }
   header h1 {
-  font-size: 1em;
-  font-weight: 400;  
-  padding: 2em;
-  margin-right: 50em;
+    font-size: 1em;
+    font-weight: 400;  
+    padding: 2em;
+    margin-right: 50em;
   }
+
+  
 
   .header-title button {
     background: black;
@@ -62,6 +64,18 @@
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
+  h1 {
+    color: white;
+  }
+  
+  h1 i {
+    color: rgb(134, 134, 134);
+  }
+
+  .heading-background {
+    color: #121212;
+  }
+
   .header-title {
     color: white;
   }
@@ -75,14 +89,6 @@
 
     .cv-button-text {
       color: black;
-    }
-
-    h1 {
-      color: white;
-    }
-  
-    i {
-      color: #f684266b;
     }
 
 }

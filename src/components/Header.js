@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata'
-import './header.css';
 
 
 export default class Header extends React.Component {

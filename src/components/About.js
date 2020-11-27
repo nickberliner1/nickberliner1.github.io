@@ -2,7 +2,6 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
 import { Parallax, Background } from 'react-parallax';
-import './about.css';
 
 export default class About extends React.Component {
     state = {  }
