@@ -12,12 +12,15 @@ class Navbar extends Component {
     };
 
     render() { 
+
+        const lightTheme = this.props.lightTheme;
+
         return (
         <Draggable 
             handle=".drag-handle"
             axis="x"
         >
-            <nav>
+            <nav className={`navbar-${lightTheme ? "light" : "dark"}`}>
                 <div className="drag-handle">
                     <i class="fas fa-arrows-alt-h"></i>
                 </div>
@@ -28,9 +31,9 @@ class Navbar extends Component {
                 
                 <ul>
                     <li><Link
-                        className='link'
-                        activeClass="active"
-                        to="homw"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
+                        to="home"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -39,8 +42,8 @@ class Navbar extends Component {
                     >Home</Link></li>
                     <hr />
                     <li><Link
-                        className='link'
-                        activeClass="active"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
                         to="About"
                         spy={true}
                         smooth={true}
@@ -49,8 +52,8 @@ class Navbar extends Component {
                     >About</Link></li>
                     <hr />
                     <li><Link
-                        className='link'
-                        activeClass="active"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
                         to="work"
                         spy={true}
                         smooth={true}
@@ -59,8 +62,8 @@ class Navbar extends Component {
                     >Work</Link></li>
                     <hr />
                     <li><Link
-                        className='link'
-                        activeClass="active"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
                         to="contact"
                         spy={true}
                         smooth={true}
@@ -68,8 +71,8 @@ class Navbar extends Component {
                         duration={500}
                     >Contact</Link></li>
                     <li><Link
-                        className='link'
-                        activeClass="active"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
                         to="contact"
                         spy={true}
                         smooth={true}
@@ -81,8 +84,8 @@ class Navbar extends Component {
                         </a>
                     </Link></li>
                     <li><Link
-                        className='link'
-                        activeClass="active"
+                        className={`link-${lightTheme ? "light" : "dark"}`}
+                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
                         to="contact"
                         spy={true}
                         smooth={true}

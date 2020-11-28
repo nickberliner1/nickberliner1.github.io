@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 
-nav {
+.navbar-light {
     position: fixed;
     left: 2em;
     top: 2em;
     z-index: 100;
     /* display: flex; */
     background-color: #101f40ef;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 10px;
 }
 
@@ -28,7 +28,7 @@ li {
     padding: 10px;
 }
 
-li .link {
+li .link-light {
     text-decoration: none;
     font-weight: 1000;
     color: white;
@@ -41,12 +41,12 @@ li .link {
     -o-transition: all 0.3s ease-in-out;
 }
 
-li .link:hover {
+li .link-light:hover {
     color: #f68426;
     opacity: 1;
 }
 
-.active {
+.active-light {
     color:#f68426;
     opacity: 1;
 }
