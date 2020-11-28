@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 
+/* @media (prefers-color-scheme: light) { */
 body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -23,7 +24,7 @@ a {
 }
 
 
-
+/* } */
 
 
 

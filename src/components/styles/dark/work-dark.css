@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
 
 .work-heading-dark {
     font-family: 'Montserrat', sans-serif;
@@ -11,4 +11,4 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2em;
   }
-}
+/* } */

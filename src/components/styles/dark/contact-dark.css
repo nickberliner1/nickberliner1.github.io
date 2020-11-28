@@ -1,5 +1,5 @@
 /* DARK MODE */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
 
   .contact-content-dark {
     
@@ -33,4 +33,4 @@
       transition: 0.2s ease-in-out;
     }
     
-  }
+  /* } */

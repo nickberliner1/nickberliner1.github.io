@@ -6,6 +6,9 @@
     top:8em;
     align-items: flex-start;
   }
+
+  /* @media (prefers-color-scheme: light) { */
+
   .work-heading-light {
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
@@ -17,4 +20,4 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2em;
   }
-  
+/* } */
