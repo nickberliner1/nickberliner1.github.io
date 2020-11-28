@@ -111,7 +111,7 @@ nav {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
 
 
 body {
@@ -132,9 +132,10 @@ nav {
   top:1em;
   left:1em;
 }
-.about {position: relative;
-      display: flex;
-      top:-10em;
+.about {
+  position: relative;
+  display: flex;
+  top:-10em;
 }
 .about img {
   display: none
@@ -187,7 +188,7 @@ height: 30em;
   font-size: 2em;
 }
 
-}
+} */
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px)  {
@@ -195,7 +196,7 @@ height: 30em;
 
 
 
-body {
+/* body {
     font-size: 20px;
   }
   header h1 {
@@ -263,7 +264,7 @@ height: 32em;
   top:4em;
   padding: 1em;
   font-size: 4em;
-}
+} */
 
 
 }
