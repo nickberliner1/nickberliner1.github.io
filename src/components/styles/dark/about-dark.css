@@ -1,5 +1,5 @@
 /* DARK MODE */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   .about-content-dark h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
@@ -26,4 +26,4 @@
     }
 
     
-  }
+  /* } */

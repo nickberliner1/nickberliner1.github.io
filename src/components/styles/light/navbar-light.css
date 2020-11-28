@@ -4,17 +4,12 @@
 padding-top: 10px;
 }
 
-.navbar-light {
-    position: fixed;
-    left: 2em;
-    top: 2em;
-    z-index: 100;
-    /* display: flex; */
-    background-color: #101f40ef;
-    border: 1px solid black;
-    border-radius: 10px;
+.drag-handle i {
+    color: white;
+    padding: 10px;
+    float: right;
+    cursor: grab;
 }
-
 
 ul {
     display: flex;
@@ -30,6 +25,19 @@ li {
     padding-left: 5px;
     padding-right: 5px;
     padding: 10px;
+}
+
+/* @media (prefers-color-scheme: light) { */
+
+.navbar-light {
+    position: fixed;
+    left: 2em;
+    top: 2em;
+    z-index: 100;
+    /* display: flex; */
+    background-color: #101f40ef;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 li .link-light {
@@ -54,13 +62,8 @@ li .link-light:hover {
     color:#f68426;
     opacity: 1;
 }
+/* } */
 
-.drag-handle i {
-    color: white;
-    padding: 10px;
-    float: right;
-    cursor: grab;
-}
 
 
 /* SMARTPHONES PORTRAIT */

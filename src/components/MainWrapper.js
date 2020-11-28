@@ -52,6 +52,7 @@ export default class MainWrapper extends React.Component {
                     <body className={`body-${lightTheme ? "light" : "dark"}`} />
                 </Helmet>
             
+            {/* <div className="App"> */}
             <div className="App">
                 <Navbar
                     handleDarkMode={this.handleDarkMode}

@@ -1,3 +1,4 @@
+/* @media (prefers-color-scheme: light) { */
 
   .project-light {
     overflow: hidden;
@@ -57,7 +58,7 @@
     color: #101f40;
   }
 
-
+/* } */
 
 
   /* SMARTPHONES PORTRAIT */

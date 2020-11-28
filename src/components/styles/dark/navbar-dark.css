@@ -1,5 +1,5 @@
 /* DARK MODE */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
     .navbar-dark {
         position: fixed;
         left: 2em;
@@ -33,4 +33,4 @@
         opacity: 1;
     }
 
-}
+/* } */

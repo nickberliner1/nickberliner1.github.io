@@ -1,7 +1,7 @@
 /*
 DARK MODE
 */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
     body {
       font-size: 16px;
       font-family: 'Open Sans', sans-serif;
@@ -15,4 +15,4 @@ DARK MODE
     }
 
 
-  }
+  /* } */
