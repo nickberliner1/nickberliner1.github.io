@@ -31,7 +31,7 @@ class Navbar extends Component {
                     {/* <button onClick={this.props.handleDarkMode}></button> */}
                     <Switch 
                         onChange={this.props.handleDarkMode}
-                        // checked={this.props.lightTheme}
+                        checked={this.props.lightTheme}
                         checkedIcon={
                             <div style={{display: 'flex',
                                         justifyContent: "center",
