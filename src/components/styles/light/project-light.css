@@ -6,6 +6,8 @@
     align-content: center;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px  rgb(26, 26, 26);
   }
   
   .project-title-light {
@@ -30,8 +32,9 @@
     backface-visibility: hidden;
     width: 30em;  
     height: 30em;
-    border: 2.5px solid rgb(168, 168, 168);
+    border: 1.5px solid rgb(168, 168, 168);
     border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(39, 39, 39);
   }
   
   
@@ -48,6 +51,10 @@
   }
   .project-light:hover .project-description-light {
     opacity: 1;
+  }
+
+  .project-light i:hover {
+    color: #101f40;
   }
 
 

@@ -72,21 +72,24 @@ export default class MainWrapper extends React.Component {
                         handleDarkMode={this.handleDarkMode}
                         lightTheme={this.state.lightTheme}
                     ></Work>
-
-                        {data.projects.map((project)=>(
-                            <Project key={project.id}
-                                     title = {project.title}
-                                     service = {project.service}
-                                     imageSrc = {project.imageSrc}
-                                     url={project.url}
-                                     handleDarkMode={this.handleDarkMode}
-                                     lightTheme={this.state.lightTheme}
-                             ></Project>
-                        ))}
-                    
+                        <div className={`work-content-${lightTheme ? "light" : "dark"}`}>
+                            {data.projects.map((project)=>(
+                                <Project key={project.id}
+                                        title = {project.title}
+                                        service = {project.service}
+                                        imageSrc = {project.imageSrc}
+                                        url={project.url}
+                                        handleDarkMode={this.handleDarkMode}
+                                        lightTheme={this.state.lightTheme}
+                                ></Project>
+                            ))}
+                        </div>
                 </div>
-                <div className='contact'>
-                    <Contact></Contact>
+                <div className={`contact-${lightTheme ? "light" : "dark"}`}>
+                    <Contact
+                        handleDarkMode={this.handleDarkMode}
+                        lightTheme={this.state.lightTheme}
+                    ></Contact>
                 </div>
             </div>
         );

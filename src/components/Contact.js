@@ -3,20 +3,27 @@ import Fade from 'react-reveal/Fade';
 import data from '../yourdata';
 
 export default class Contact extends React.Component {
-    state = {  }
+    constructor(props) {
+        super(props);
+    }
+
     render() { 
-        return (  <div>
+
+        const lightTheme = this.props.lightTheme;
+
+        return (  
+        <div>
         {/* <h1>
                 <Fade bottom cascade> Contact.</Fade>
         </h1> */}
         <Fade bottom>
-        <div className='contact-content'>
-                <h1 className="amazing-color-blue">
+        <div className={`contact-content-${lightTheme ? "light" : "dark"}`}>
+                <h1 className={`lets-${lightTheme ? "light" : "dark"}`}>
                 Let’s
-                <span className='amazing-color-orange'> talk</span>
+                <span className={`talk-${lightTheme ? "light" : "dark"}`}> talk</span>
                 </h1>
                     <h2>+39 347 031 7404</h2>
-                    <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
+                    <a href={`mailto:${data.contactEmail}`} className="email">{data.contactEmail}</a>
                     
                 {/* <ul>
                     <li>

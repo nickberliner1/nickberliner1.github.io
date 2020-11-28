@@ -18,7 +18,8 @@ export default class Project extends React.Component {
                             <span>{this.props.service}</span>
                             <hr />
                             <a target="_blank" rel="noopener noreferrer" href={this.props.url} >
-                                <i class="fas fa-chevron-circle-right fa-3x"></i>
+                                <br />
+                                <i class="fas fa-external-link-alt fa-3x"></i>
                             </a>
                         </div>
                 </div>
