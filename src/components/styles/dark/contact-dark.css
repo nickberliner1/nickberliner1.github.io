@@ -1,0 +1,36 @@
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+
+  .contact-content-dark {
+    
+    position: relative;
+    left:15em;
+    
+  }
+    .lets-dark {
+      color:white;
+    }
+  
+    .talk-dark {
+      color:#f68426;
+      opacity: 1;
+    }
+
+    .phone-number-dark {
+      color: white;
+    }
+    .email-dark {
+      color: white;
+      font-size: 2em;
+    }
+
+    .contact-content-dark i {
+      color: white;
+    }
+    
+    .contact-content-dark i:hover {
+      color: #f68426;
+      transition: 0.2s ease-in-out;
+    }
+    
+  }

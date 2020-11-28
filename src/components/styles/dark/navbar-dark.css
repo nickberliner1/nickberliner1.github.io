@@ -1,0 +1,36 @@
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    .navbar-dark {
+        position: fixed;
+        left: 2em;
+        top: 2em;
+        z-index: 100;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: #f68426d8;
+    }
+
+    li .link-dark {
+        text-decoration: none;
+        font-weight: 1000;
+        color: white;
+        padding: 1em;
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    
+    li .link-dark:hover {
+        color: #101f40;
+        opacity: 1;
+    }
+    
+    .active-dark {
+        color:#101f40;
+        opacity: 1;
+    }
+
+}

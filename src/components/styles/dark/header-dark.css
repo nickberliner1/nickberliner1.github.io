@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: dark) {
+    /* .main-heading {
+      color: white;
+    } */
+    
+    /* h1 i {
+      color: rgb(134, 134, 134);
+    } */
+  
+    .heading-background-dark {
+      position: fixed;
+      opacity: 0.15;
+      font-size: 10em;
+      left: 30vw;
+      top: 0.5em;
+      z-index: -100;
+      color: #505050;
+    }
+  
+    .header-title-dark {
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3em;
+      text-align: left;
+      top: 12vh;
+      color: white;
+    }
+  
+    .header-title-dark button {
+      background: white;
+      border: 0px;
+      padding: 1em 3em;
+      transition: all 0.2s ease-out;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+    }
+  
+    .header-title-light button:hover {
+      opacity: 0.8;
+    }
+    .header-title-light button a {
+      font-family: 'Open Sans', sans-serif;
+      color:black;
+      text-decoration: none;
+    }
+  
+      .cv-button-text-dark {
+        color: black;
+      }
+  
+  }

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  z-index: 1;
+}
+.body-light {
+  background-color: #f1f1f1;
+  transition: 0.2s;
+}
+
+
+
+a {
+  color: inherit;
+}
+
+.App  {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+
+  body {
+    font-size: 6px;
+  }
+  /* header h1 {
+font-size: 5em;  
+padding: 1em;
+margin-right: 0em;
+}
+
+.heading-background {
+  display: none;
+} */
+nav {
+  display: none;
+}
+
+.about {position: relative;
+      display: flex;
+      top:-30em;
+}
+.about img {
+  display: none
+}
+.about-content {
+  left:2em;
+}
+.about-content p {
+  font-size: 3.5em;
+  text-align: left;
+  width: 300px;
+}
+
+.work {
+  left:2em;
+  top:2em;
+  align-items: flex-start;
+}
+.work .work-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5em;
+}
+.project img {
+  width: 45em;  
+  height: 45em;
+}
+
+.contact {
+  top: 15em;
+  left: 2em;
+}
+.contact h1 {
+  font-size: 4em;
+}
+.contact .email {
+  font-size: 3.5em;
+}
+
+.contact li {
+  display: block;
+  padding: 2em;
+}
+.contact li a {
+  font-size: 2.5em;
+}
+.footer {
+  top:4em;
+  padding: 1em;
+  font-size: 2em;
+}
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+
+body {
+    font-size: 10px;
+  }
+header h1 {
+font-size: 5em;  
+padding: 1em;
+margin-right: 0em;
+}
+
+nav {
+  display: none;
+}
+.header-title {
+  font-size: 3.6em;
+  text-align: left;
+  top:1em;
+  left:1em;
+}
+.about {position: relative;
+      display: flex;
+      top:-10em;
+}
+.about img {
+  display: none
+}
+.about-content {
+  left:6em;
+}
+.about-content p {
+  font-size: 3.5em;
+  text-align: left;
+  width: 700px;
+}
+
+.work {
+  left:6em;
+  top:4em;
+  align-items: flex-start;
+}
+.work .work-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
+}
+.project img {
+width: 30em;  
+height: 30em;
+}
+
+.contact {
+  top:15em;
+  left:6em;
+}
+.contact h1 {
+  font-size: 4em;
+}
+.contact .email {
+  font-size: 3.5em;
+}
+
+.contact li {
+  display: block;
+  padding: 2em;
+}
+.contact li a {
+  font-size: 2.5em;
+}
+.footer {
+  top:4em;
+  padding: 1em;
+  font-size: 2em;
+}
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px)  {
+/* Styles */
+
+
+
+body {
+    font-size: 20px;
+  }
+  header h1 {
+    font-size: 3em;
+    margin-right: 25em;
+  }
+
+
+  nav {
+  left:60em;
+  top:12em;
+  z-index: 100;
+}
+nav li {
+   font-size: 3em;
+
+}
+
+.about {position: relative;
+      display: flex;
+      top:-20em;
+}
+.about-content {
+  left:10em;
+}
+.about-content p {
+  font-size: 3.5em;
+  text-align: left;
+  width: 25em;
+}
+.about img {
+  margin-left: 1em;
+}
+
+.work {
+  left:10em;
+  top:4em;
+  align-items: flex-start;
+}
+.work .work-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.project img {
+width: 32em;  
+height: 32em;
+}
+
+.contact {
+  top:10em;
+  left:8em;
+}
+.contact h1 {
+  font-size: 8em;
+}
+.contact .email {
+  font-size: 5em;
+}
+
+.contact li a {
+  font-size: 4em;
+  padding: 1em;
+}
+.footer {
+  top:4em;
+  padding: 1em;
+  font-size: 4em;
+}
+
+
+}
+
+
