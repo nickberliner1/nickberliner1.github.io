@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Draggable from 'react-draggable';
+import Switch from 'react-switch';
+
 class Navbar extends Component {
     constructor(props) {
         super(props);
@@ -25,8 +27,30 @@ class Navbar extends Component {
                     <i class="fas fa-arrows-alt-h"></i>
                 </div>
 
-                <div>
-                    <button onClick={this.props.handleDarkMode}></button>
+                <div className="theme-switch">
+                    {/* <button onClick={this.props.handleDarkMode}></button> */}
+                    <Switch 
+                        onChange={this.props.handleDarkMode}
+                        checked={this.props.lightTheme}
+                        checkedIcon={
+                            <div style={{display: 'flex',
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        height: '100%'}}>
+                                <i class="fas fa-sun"></i>
+                            </div>
+                        }
+                        uncheckedIcon={
+                            <div style={{display: 'flex',
+                            justifyContent: "center",
+                            alignItems: "center",
+                            height: '100%'}}>
+                                <i class="fas fa-moon"></i>
+                            </div>
+                        }
+                        offColor="#6400FF"
+                        onColor="#74FF00"
+                    />
                 </div>
                 
                 <ul>
@@ -44,7 +68,7 @@ class Navbar extends Component {
                     <li><Link
                         className={`link-${lightTheme ? "light" : "dark"}`}
                         activeClass={`active-${lightTheme ? "light" : "dark"}`}
-                        to="About"
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -70,32 +94,7 @@ class Navbar extends Component {
                         offset={-70}
                         duration={500}
                     >Contact</Link></li>
-                    <li><Link
-                        className={`link-${lightTheme ? "light" : "dark"}`}
-                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/nickberliner1">
-                            <i class="fab fa-github fa-2x"></i>
-                        </a>
-                    </Link></li>
-                    <li><Link
-                        className={`link-${lightTheme ? "light" : "dark"}`}
-                        activeClass={`active-${lightTheme ? "light" : "dark"}`}
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        <a target='_blank' rel="noopener noreferrer" href="https://linkedin.com/in/nickberliner1">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </Link></li>
+                    
                 </ul>
             </nav> 
         </Draggable>

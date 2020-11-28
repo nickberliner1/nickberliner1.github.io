@@ -7,21 +7,23 @@
     color: white;
   }
 
+  .about-content-dark {
+    position: relative;
+    left:15em;
+  }
+
+  .about-content-dark p {
+    font-size: 1.3em;
+    text-align: left;
+    width: 37em;
+    color: white;
+  }
+
     .my-about-dark {
       background-color: rgba(70, 70, 70, 0.616);
       padding: 25px;
       border-radius: 10px;
     }
 
-    .about-content-dark {
-      position: relative;
-      left:15em;
-    }
-
-    .about-content-dark p {
-      font-size: 1.3em;
-      text-align: left;
-      width: 37em;
-      color: white;
-    }
+    
   }

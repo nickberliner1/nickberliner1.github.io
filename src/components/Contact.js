@@ -12,20 +12,27 @@ export default class Contact extends React.Component {
         const lightTheme = this.props.lightTheme;
 
         return (  
-        <div>
-        {/* <h1>
-                <Fade bottom cascade> Contact.</Fade>
-        </h1> */}
-        <Fade bottom>
-        <div className={`contact-content-${lightTheme ? "light" : "dark"}`}>
+            <div>
+            <div className="spacer-top"></div>
+
+            <div className="contact">
+                
+
+            <div className={`contact-content-${lightTheme ? "light" : "dark"}`}>
                 <h1 className={`lets-${lightTheme ? "light" : "dark"}`}>
+                <Fade bottom>
                 Let’s
                 <span className={`talk-${lightTheme ? "light" : "dark"}`}> talk</span>
-                </h1>
-                    <h2>+39 347 031 7404</h2>
-                    <a href={`mailto:${data.contactEmail}`} className="email">{data.contactEmail}</a>
+                </Fade></h1>
+                    <h2 className={`phone-number-${lightTheme ? "light" : "dark"}`}>
+                        +39 347 031 7404
+                        </h2>
+                    <a href={`mailto:${data.contactEmail}`} 
+                        className={`email-${lightTheme ? "light" : "dark"}`}>
+                    {data.contactEmail}
+                    </a>
                     
-                {/* <ul>
+                <ul className="social-links">
                     <li>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/nickberliner1">
                         <i class="fab fa-github fa-3x"></i>
@@ -36,13 +43,13 @@ export default class Contact extends React.Component {
                         <i class="fab fa-linkedin fa-3x"></i>
                     </a>
                     </li>
-                </ul> */}
-
-                <hr />
-        </div>
-        </Fade>
-        <br />
-        </div>);
+                </ul>
+                </div>
+                
+            </div>
+            <div className="spacer-bottom"></div>
+            </div>
+        );
     }
 }
 

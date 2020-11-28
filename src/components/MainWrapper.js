@@ -1,5 +1,6 @@
 import React from 'react';
 import data from "../yourdata";
+import { Helmet } from 'react-helmet';
 
 // Components
 import Header from './Header';
@@ -44,7 +45,13 @@ export default class MainWrapper extends React.Component {
     render() {
 
         const lightTheme = this.state.lightTheme;
+
         return (
+            <div>
+                <Helmet>
+                    <body className={`body-${lightTheme ? "light" : "dark"}`} />
+                </Helmet>
+            
             <div className="App">
                 <Navbar
                     handleDarkMode={this.handleDarkMode}
@@ -61,7 +68,7 @@ export default class MainWrapper extends React.Component {
                 
 
 
-                <div className='About'>
+                <div className='about'>
                     <About
                         handleDarkMode={this.handleDarkMode}
                         lightTheme={this.state.lightTheme}
@@ -85,13 +92,15 @@ export default class MainWrapper extends React.Component {
                             ))}
                         </div>
                 </div>
-                <div className={`contact-${lightTheme ? "light" : "dark"}`}>
-                    <Contact
-                        handleDarkMode={this.handleDarkMode}
-                        lightTheme={this.state.lightTheme}
-                    ></Contact>
+                        <Contact
+                            handleDarkMode={this.handleDarkMode}
+                            lightTheme={this.state.lightTheme}
+                        ></Contact>
+
+                    
                 </div>
             </div>
+               
         );
     }
 }

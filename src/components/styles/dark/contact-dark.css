@@ -1,19 +1,12 @@
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
 
-    .contact-dark {
-      position: relative;
-      top:20em;
-      left:15em;
-      text-align: left;
-    }
+  .contact-content-dark {
     
-    .contact-dark h1 {
-        font-family: 'Montserrat', sans-serif;
-      font-size: 5em;
-      text-align: left;
-    }
+    position: relative;
+    left:15em;
     
+  }
     .lets-dark {
       color:white;
     }
@@ -22,23 +15,22 @@
       color:#f68426;
       opacity: 1;
     }
-    .contact-dark .email {
+
+    .phone-number-dark {
+      color: white;
+    }
+    .email-dark {
       color: white;
       font-size: 2em;
     }
-    .contact-dark li {
-      display: inline-block;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-right: 1em;
-      margin-left: 0;
-    }
 
-    .contact-dark h2 {
+    .contact-content-dark i {
       color: white;
     }
-    .contact-dark li a {
-      text-decoration: none;
-      color: white;
+    
+    .contact-content-dark i:hover {
+      color: #f68426;
+      transition: 0.2s ease-in-out;
     }
+    
   }

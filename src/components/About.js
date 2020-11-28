@@ -18,10 +18,10 @@ export default class About extends React.Component {
             
             <div className={`about-content-${lightTheme ? "light" : "dark"}`}>
             
-            <Parallax
-                // bgImage={data.aboutImage}
+            {/* <Parallax
+                bgImage={data.aboutImage}
                 strength={300}
-            >
+            > */}
                 <h1><Fade bottom cascade>About.</Fade></h1>
                 <Fade bottom>
                         <p className={`my-about-${lightTheme ? "light" : "dark"}`}>{data.aboutTextOne}</p>
@@ -29,7 +29,7 @@ export default class About extends React.Component {
                         <p className={`my-about-${lightTheme ? "light" : "dark"}`}>{data.aboutTextThree}</p>
 
                 </Fade>
-                </Parallax>
+                {/* </Parallax> */}
 
             </div>
             

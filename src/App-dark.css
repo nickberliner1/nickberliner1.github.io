@@ -4,9 +4,15 @@ DARK MODE
 @media (prefers-color-scheme: dark) {
     body {
       font-size: 16px;
-      background: #18191a;
       font-family: 'Open Sans', sans-serif;
       overflow-x: hidden;
       z-index: 1;
     }
+
+    .body-dark {
+      background-color: #292929;
+      transition: 0.2s;
+    }
+
+
   }

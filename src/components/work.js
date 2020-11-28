@@ -11,21 +11,14 @@ class Work extends Component {
     render() { 
         const lightTheme = this.props.lightTheme;
 
-        return (<div>
-        <h1 className={`work-heading-${lightTheme ? "light" : "dark"}`}>
-        <Fade bottom cascade>Work.</Fade></h1>
-        <div className={`work-content-${lightTheme ? "light" : "dark"}`}>
-                {/* {data.projects.map((project)=>(
-                    <Project key={project.id}
-                             title = {project.title}
-                             service = {project.service}
-                             imageSrc = {project.imageSrc}
-                             url={project.url}
-                             handleDarkMode={this.handleDarkMode}
-                     ></Project>
-                ))} */}
-        </div>
-        </div>  );
+        return (
+            <div>
+
+                <h1 className={`work-heading-${lightTheme ? "light" : "dark"}`}>
+                <Fade bottom cascade>Work.</Fade></h1>
+                
+            </div>  
+        );
     }
 }
  
