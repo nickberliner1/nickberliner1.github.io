@@ -1,0 +1,52 @@
+@media (prefers-color-scheme: dark) {
+    .project-dark {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .project-title-dark {
+        position: absolute;
+        z-index: 10;
+        -webkit-transition: 0.1s;
+        -moz-transition: 0.1s;
+        -ms-transition: 0.1s;
+        -o-transition: 0.1s;
+        transition: 0.1s;
+        opacity: 0;
+      }
+      
+      .project-dark:hover .project-title-dark {
+        opacity: 1;
+        text-align: center;
+      }
+      
+      .project-image-dark {
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        width: 30em;  
+        height: 30em;
+        border: 2.5px solid rgb(168, 168, 168);
+        border-radius: 10px;
+      }
+      
+      
+      .project-description-dark {
+        transition: .5s ease;
+        opacity: 0;
+       
+      }
+      
+      
+      
+      .project-dark:hover img {
+        opacity: 0.2;
+      }
+      .project-dark:hover .project-description-dark {
+        opacity: 1;
+      }
+}

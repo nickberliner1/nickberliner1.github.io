@@ -58,21 +58,6 @@ li .link:hover {
     cursor: grab;
 }
 
-/* DARK MODE */
-@media (prefers-color-scheme: dark) {
-    nav {
-        background-color: #f68426d8;
-    }
-
-    li .link {
-        color: white;
-    }
-
-    li .link:hover {
-        color: #101f40;
-    }
-
-}
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {

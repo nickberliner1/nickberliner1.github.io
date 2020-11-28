@@ -6,16 +6,16 @@ hr {
   display: flex;
   flex-direction: row;
 }
-.about-content {
+.about-content-light {
   position: relative;
   left:15em;
 }
-.about-content h1 {
+.about-content-light h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
-.about-content p {
+.about-content-light p {
   font-size: 1.3em;
   text-align: left;
   width: 37em;
@@ -30,17 +30,10 @@ hr {
   max-width: 100vw;
 }
 
-.my-about {
+.my-about-light {
   background-color: rgba(255, 255, 255, 0.616);
   padding: 25px;
   border-radius: 10px;
-}
-
-/* DARK MODE */
-@media (prefers-color-scheme: dark) {
-  h1 {
-    color: white;
-  }
 }
 
 

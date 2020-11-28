@@ -7,7 +7,7 @@
     color: black;
     top:4em;
   }
-  .heading-background {
+  .heading-background-light {
     position: fixed;
     opacity: 0.05;
     font-size: 10em;
@@ -22,16 +22,24 @@
     justify-content: center;
     align-items: center;
   }
-  header h1 {
+  
+  .main-heading {
     font-size: 1em;
     font-weight: 400;  
     padding: 2em;
     margin-right: 50em;
   }
 
-  
+  .header-title-light {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: left;
+    top: 12vh;
+    color: black;
+  }
 
-  .header-title button {
+  .header-title-light button {
     background: black;
     border: 0px;
     padding: 1em 3em;
@@ -41,56 +49,17 @@
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
   }
-  .header-title button:hover {
+  .header-title-light button:hover {
     opacity: 0.8;
   }
-  .header-title button a {
+  .header-title-light button a {
     font-family: 'Open Sans', sans-serif;
     color:white;
     text-decoration: none;
   }
-  .header-title {
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
-    text-align: left;
-    top:2em;
-  }
 
-.cv-button-text {
+.cv-button-text-light {
   color: white;
-}
-
-
-/* DARK MODE */
-@media (prefers-color-scheme: dark) {
-  h1 {
-    color: white;
-  }
-  
-  h1 i {
-    color: rgb(134, 134, 134);
-  }
-
-  .heading-background {
-    color: #121212;
-  }
-
-  .header-title {
-    color: white;
-  }
-
-  .header-title button {
-    background: white;
-  }
-  .header-title button a {
-    color:black;
-  }
-
-    .cv-button-text {
-      color: black;
-    }
-
 }
 
 /* SMARTPHONES PORTRAIT */

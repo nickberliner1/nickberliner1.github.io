@@ -6,12 +6,13 @@
     top:8em;
     align-items: flex-start;
   }
-  .work .heading {
+  .work-heading-light {
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     text-align: left;
+    color: black;
   }
-  .work .work-content {
+  .work-content-light {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2em;

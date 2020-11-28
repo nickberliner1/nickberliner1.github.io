@@ -42,25 +42,6 @@
     color:#2c59fb;
   }
   
-
-/* DARK MODE */
-@media (prefers-color-scheme: dark) {
-  .amazing-color-blue {
-    color: white;
-  }
-  .contact .email {
-    color: white;
-  }
-
-  .contact li a {
-    text-decoration: none;
-    color: white;
-  }
-
-  h2 {
-    color: white;
-  }
-}
   
   
   /* SMARTPHONES PORTRAIT */

@@ -1,5 +1,5 @@
 
-  .project {
+  .project-light {
     overflow: hidden;
     position: relative;
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: center;
   }
   
-  .project-title {
+  .project-title-light {
     position: absolute;
     z-index: 10;
     -webkit-transition: 0.1s;
@@ -19,12 +19,12 @@
     opacity: 0;
   }
   
-  .project:hover .project-title {
+  .project-light:hover .project-title-light {
     opacity: 1;
     text-align: center;
   }
   
-  .project-image {
+  .project-image-light {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -35,7 +35,7 @@
   }
   
   
-  .project-description {
+  .project-description-light {
     transition: .5s ease;
     opacity: 0;
    
@@ -43,10 +43,10 @@
   
   
   
-  .project:hover img {
+  .project-light:hover img {
     opacity: 0.2;
   }
-  .project:hover .project-description {
+  .project-light:hover .project-description-light {
     opacity: 1;
   }
 

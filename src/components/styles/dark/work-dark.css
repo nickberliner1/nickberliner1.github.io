@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+
+.work-heading-dark {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    text-align: left;
+    color: white;
+  }
+.work-content-dark {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+  }
+}

@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Draggable from 'react-draggable';
-import DarkToggle from './DarkToggle';
 class Navbar extends Component {
-    state = { };
+    constructor(props) {
+        super(props);
+        this.state = { };
+    }
+    
     scrollToTop = () => {
         scroll.scrollToTop();
     };
+
     render() { 
         return (
         <Draggable 
@@ -19,9 +23,9 @@ class Navbar extends Component {
                 </div>
 
                 <div>
-                    <DarkToggle />
+                    <button onClick={this.props.handleDarkMode}></button>
                 </div>
-
+                
                 <ul>
                     <li><Link
                         className='link'
