@@ -30,8 +30,7 @@ export default class MainWrapper extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            // set to null because it defaults as the user's screen preference
-            lightTheme: null
+            lightTheme: true
         }
         this.handleDarkMode = this.handleDarkMode.bind(this);
     }
