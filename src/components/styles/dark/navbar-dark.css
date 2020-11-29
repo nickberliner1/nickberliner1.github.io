@@ -5,9 +5,11 @@
         left: 2em;
         top: 2em;
         z-index: 100;
-        border: 1px solid white;
         border-radius: 10px;
-        background-color: #f68426d8;
+        background-color: #152642cc;
+        border: 1px solid rgb(105, 105, 105);
+        box-shadow: 0 5px 10px  rgb(90, 90, 90);
+
     }
 
     li .link-dark {
@@ -24,12 +26,12 @@
     }
     
     li .link-dark:hover {
-        color: #101f40;
+        color: #f68426;
         opacity: 1;
     }
     
     .active-dark {
-        color:#101f40;
+        color:#f68426;
         opacity: 1;
     }
 

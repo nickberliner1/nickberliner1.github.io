@@ -20,9 +20,12 @@
   }
 
     .my-about-dark {
-      background-color: rgba(70, 70, 70, 0.616);
+      /* background-color: rgba(70, 70, 70, 0.616); */
+      background-color: #1d1d1dda;
       padding: 25px;
       border-radius: 10px;
+      border: 1px solid rgb(105, 105, 105);
+      box-shadow: 0 5px 10px  rgb(95, 95, 95);
     }
 
     
