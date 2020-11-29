@@ -40,25 +40,27 @@ export default
             },
             { 
                 id: 2,//DO NOT CHANGE THIS (Please)😅
+                title: 'Check list app',
+                service: 'App with bugs fixed, tests\nwritten, and documentation made',
+                imageSrc: "https://i.imgur.com/mOHcIwp.jpg",
+                url: 'https://github.com/nickberliner1/check-list-app'
+                
+            },
+            
+            {
+                id: 3,//DO NOT CHANGE THIS (Please)😅
                 title: 'Tic Tac Toe',
                 service: 'Simple game built in React.js',
                 imageSrc: "https://i.imgur.com/9iXDOsl.jpg",
                 url: 'https://github.com/nickberliner1/tic-tac-toe-react'
-            },
-            {
-                id: 3,//DO NOT CHANGE THIS (Please)😅
+           },
+           {
+                id: 4,//DO NOT CHANGE THIS (Please)😅
                 title: 'Caveman Game',
                 service: '2 player game built with\nOOP VanillaJS',
                 imageSrc: "https://i.imgur.com/xjuTazY.jpg",
                 url: 'http://github.com/nickberliner1/cavemen-game'
             },
-            {
-                id: 4,//DO NOT CHANGE THIS (Please)😅
-                title: 'Check list app',
-                service: 'App with bugs fixed, tests\nwritten, and documentation made',
-                imageSrc: "https://i.imgur.com/mOHcIwp.jpg",
-                url: 'https://github.com/nickberliner1/check-list-app'
-           },
            { 
                 id: 5,//DO NOT CHANGE THIS (Please)😅
                 title: 'This website',
