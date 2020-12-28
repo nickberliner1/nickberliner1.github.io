@@ -33,6 +33,7 @@ export default class Header extends React.Component {
             {data.headerTagline[2]}
                <hr />
                 <a 
+                style={{cursor: 'pointer'}}
                 href="https://drive.google.com/file/d/1C2qeDpLAYbBSgphL8tyueRd1xm1LrtKp/view?usp=sharing" 
                 target="_blank"
                 >
